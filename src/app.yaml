@@ -1,0 +1,30 @@
+application: temp
+version: 1
+runtime: go
+api_version: go1
+
+handlers:
+- url: /
+  static_files: frontend/app/index.html
+  upload: frontend/app/(.*\.html)
+
+- url: /css
+  static_dir: frontend/app/css
+
+- url: /img
+  static_dir: frontend/app/img
+
+- url: /js
+  static_dir: frontend/app/js
+
+- url: /lib
+  static_dir: frontend/app/lib
+
+- url: /partials
+  static_dir: frontend/app/partials
+
+- url: /bower_components
+  static_dir: frontend/app/bower_components
+
+- url: /.*
+  script: _go_app
