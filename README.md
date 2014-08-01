@@ -1,5 +1,11 @@
-# babilllard
+# golang-appengine-boilerplate
 
-The Babilllard Project
+This project is a boilerplat for the Google App Engine using the Go runtime.
+AngularJS is used as the frontend.
 
-This project is build on Google App Engine using the Go language.
+## Requirements
+You need the following to make this code work.
+* Go (optional) 
+* node.js
+* npm
+* Google Cloud SDK (Go came with the SDK App Engine server)
