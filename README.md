@@ -8,4 +8,4 @@ You need the following to make this code work.
 * Go (optional) 
 * node.js
 * npm
-* Google Cloud SDK (Go came with the SDK App Engine server)
+* Google Cloud SDK (Go came with the App Engine SDK)
