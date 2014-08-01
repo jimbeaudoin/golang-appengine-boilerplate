@@ -2,6 +2,7 @@
 *.o
 *.a
 *.so
+*.swp
 
 # Folders
 _obj
@@ -21,3 +22,11 @@ _testmain.go
 
 *.exe
 *.test
+.DS_Store
+
+# Frontend
+src/frontend/logs/*
+src/frontend/node_modules/
+src/frontend/bower_components/
+src/frontend/tmp
+src/frontend/.idea
