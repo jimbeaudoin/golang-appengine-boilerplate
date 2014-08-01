@@ -1,6 +1,6 @@
 # golang-appengine-boilerplate
 
-This project is a boilerplat for the Google App Engine using the Go runtime.
+This project is a boilerplate for the Google App Engine using the Go runtime.
 AngularJS is used as the frontend.
 
 ## Requirements
