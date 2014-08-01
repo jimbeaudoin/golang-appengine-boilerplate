@@ -17,9 +17,6 @@ handlers:
 - url: /js
   static_dir: frontend/app/js
 
-- url: /lib
-  static_dir: frontend/app/lib
-
 - url: /partials
   static_dir: frontend/app/partials
 
